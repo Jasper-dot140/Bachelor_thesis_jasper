@@ -1,0 +1,107 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{graphicx, float, pdfpages, amsmath, enumitem, amsfonts, amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{subcaption}
+\usepackage{xcolor} % Allow colors to be defined
+\usepackage{geometry} % Used to adjust the document margins#
+\usepackage{hyperref}
+
+\usepackage{textcomp} % defines textquotesingle
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy
+    % Setup hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Set margins to 2cm on all sides
+    \geometry{top=2cm,bottom=2cm,left=2cm,right=2cm}
+
+\title{Jasper Test Latex VS-Code}
+\author{Jasper Sammer}
+\date{\today}
+
+\begin{document}
+
+\pagenumbering{gobble}   % Seitenzahlen ausblenden
+
+\begin{titlepage}
+\begin{center}
+ 
+\Large\textbf{Department of Physics and Astronomy\\
+Heidelberg University}
+
+\vspace{18cm}
+
+\normalsize
+Bachelor Thesis in Physics\\
+submitted by\\
+\vspace{0.5cm}
+\Large\textbf{Jasper Paul Sammer}\\
+\normalsize
+\vspace{0.5cm}
+born in Cologne (Germany)\\
+\vspace{0.5cm}
+\Large\textbf{November 2025}
+\normalsize
+
+\newpage
+
+
+
+
+\Large\textbf{The comparison of the single QC and the ladder QC of silicon Pixel Sensors for the Mu3e Vertex Detector}
+
+\vspace{20cm}
+
+\normalsize
+This Bachelor Thesis has been carried out by\\
+Jasper Paul Sammer at the\\
+Institute of Physics in Heidelberg\\
+under the supervision of\\
+Prof.\ Dr.\ André Schöning 
+
+\vfill
+\end{center}
+
+\end{titlepage}
+\newpage
+\pagenumbering{Roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\part{Introduction}
+\section{Introduction}
+My intention to do this stuff here, is to learn how to write my bachelor thesis in latex
+
+\section{Physical background and motivation}
+\subsection{The standard model}
+\subsection{Neutrino oscillations and flavor violation}
+\subsection{Charged lepton flavor violation}
+
+\section{Mu3e experiment at PSI}
+\subsection{The goal of the Mu3e experiment}
+\subsection{The setup of the Mu3e experiment}
+\subsection{The Mu3e vertex detector}
+
+\section{The Detection and pyhsics behind the vertex detector}
+\subsection{The silicon pixel sensors}
+\subsection{PN-junctions}
+\subsection{Pixel Sensors}
+
+\part{Current status of the QC}
+\section{single QC}
+
+
+
+
+\end{document}

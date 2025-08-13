@@ -1,0 +1,16 @@
+\contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Physical background and motivation}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The standard model}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Neutrino oscillations and flavor violation}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Charged lepton flavor violation}{1}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Mu3e experiment at PSI}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The goal of the Mu3e experiment}{1}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The setup of the Mu3e experiment}{1}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}The Mu3e vertex detector}{1}{subsection.3.3}%
+\contentsline {section}{\numberline {4}The Detection and pyhsics behind the vertex detector}{1}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The silicon pixel sensors}{1}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}PN-junctions}{1}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Pixel Sensors}{1}{subsection.4.3}%
+\contentsline {part}{II\hspace {1em}Current status of the QC}{1}{part.2}%
+\contentsline {section}{\numberline {5}single QC}{1}{section.5}%
