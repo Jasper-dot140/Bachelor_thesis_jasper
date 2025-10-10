@@ -2,12 +2,15 @@
 
 \usepackage{graphicx, float, pdfpages, amsmath, enumitem, amsfonts, amssymb}
 \usepackage[utf8]{inputenc}
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage{subcaption}
 \usepackage{xcolor} % Allow colors to be defined
 \usepackage{geometry} % Used to adjust the document margins#
 \usepackage{hyperref}
 \usepackage{import}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{setspace} % For setting line spacing
 
 \usepackage{textcomp} % defines textquotesingle
     % Prevent overflowing lines due to hard-to-break entities
@@ -32,6 +35,7 @@
 
 \begin{document}
 
+\onehalfspacing
 \import{parts/titlepage/}{titlepage.tex}
 
 \pagenumbering{gobble}   % Seitenzahlen ausblenden
@@ -45,11 +49,14 @@
 
 \part{Introduction}
 \section{Introduction}
-My intention to do this stuff here, is to learn how to write my bachelor thesis in latex
+\import{parts/introduction}{introduction.tex}
 
-\section{Physical background and motivation}
-\subsection{The standard model}
+\section{Physical Background and Motivation}
+\subsection{The Standard Model of Particle Pyhsics}
+\import{parts/Physical_background}{standard_model.tex}
+
 \subsection{Neutrino oscillations and flavor violation}
+\import{parts/Physical_background}{Neutrino_oscillation_and_flavor_violation.tex}
 \subsection{Charged lepton flavor violation}
 
 \section{Mu3e experiment at PSI}
@@ -65,6 +72,15 @@ My intention to do this stuff here, is to learn how to write my bachelor thesis 
 \part{Current status of the QC}
 \section{single QC}
 
+
+
+
+
+
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{bib.bib} 
 
 
 
